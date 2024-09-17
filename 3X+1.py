@@ -1,6 +1,7 @@
 import networkx as nx
 import matplotlib.pyplot as plt
 
+
 def generate_tree(n):
     G = nx.DiGraph()
     root = "x"
