@@ -1,5 +1,6 @@
 l = ["r","b"]
 
+
 for i in range(6):
     x = []
     for i in range(len(l)):

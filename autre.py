@@ -18,5 +18,6 @@ def pgcd(a,b):
             h=i
     return h
 
+
 print(pgcd(215717,115))
             
