@@ -1,7 +1,5 @@
 from random import randint
 
-
-
 x = randint(0, 100)
 print("trouve le nombre caché entre O et 100")
 essai = int(input("combien d'erreur possible autorise-tu?: "))
