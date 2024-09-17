@@ -15,4 +15,6 @@ elif x == 3:
     print("neutron")
     print("mp = 1,67E-27kg")
     print("qn = O")
-#%%
+else:
+    print("Error")
+    print("You suck")
