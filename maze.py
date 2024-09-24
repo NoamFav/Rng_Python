@@ -3,7 +3,6 @@ import numpy as np
 import random
 import matplotlib
 
-
 # Maze dimensions
 HEIGHT = 40
 WIDTH = 40

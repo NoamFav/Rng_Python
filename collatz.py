@@ -1,5 +1,6 @@
 import plotly.graph_objects as go
 
+
 # Create the first two branches
 fig = go.Figure(go.Scatter(x=[0, 1], y=[0, 0], mode='lines', line=dict(color='blue')))
 fig.add_trace(go.Scatter(x=[0, -1], y=[0, 0], mode='lines', line=dict(color='red')))
