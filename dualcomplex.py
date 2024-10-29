@@ -1,4 +1,5 @@
 import sympy as sp
+import time
 
 # Define symbols for the variable and the infinitesimal part
 z = sp.symbols('z')
@@ -71,8 +72,19 @@ def symbolic_differentiate(func):
 # Example symbolic function
 def example_func(z):
     # Define function in terms of dual complex numbers symbolically
-    return z * z + 23 * z + 7
+    return z * z + 23 * z + 7 * z * z
 
 # Compute the symbolic derivative
+timer_start = time.time()
 result = symbolic_differentiate(example_func)
 print(result)
+timer_end = time.time()
+
+print(f"Time taken: {timer_end - timer_start:.6f} seconds")
+
+timer_start = time.time()
+result = sp.diff(example_func(z), z)
+print(result)
+timer_end = time.time()
+
+print(f"Time taken: {timer_end - timer_start:.6f} seconds")
