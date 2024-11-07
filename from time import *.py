@@ -1,4 +1,3 @@
-from time import *
 
 sleep(1)
 print("\nbonjour mon but est de vous donner les diviseurs d'un nombre")
