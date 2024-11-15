@@ -18,7 +18,7 @@ def bogosort(data):
     return data
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     start = time.time()
     list_to_sort = [randint(0, 10000) for _ in range(1000)]
     sorted_list = bogosort(list_to_sort)
